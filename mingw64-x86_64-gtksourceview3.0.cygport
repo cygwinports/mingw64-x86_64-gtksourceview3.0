@@ -3,7 +3,7 @@ ORIG_PN="gtksourceview"
 inherit cross gnome2
 
 NAME="mingw64-x86_64-gtksourceview3.0"
-VERSION=3.22.2
+VERSION=3.24.3
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GTK+3 syntax highlighting widget for Win64 toolchain"
@@ -11,7 +11,5 @@ DESCRIPTION="This package does NOT contain cygwin binaries.  Instead, it
 contains msvcrt-linked binaries (aka 'mingw').  It is for use with the
 mingw64-x86_64-gcc cross compiler, and installs into the
 /usr/x86_64-w64-mingw32/sys-root/mingw/{lib,include} directories."
-
-PATCH_URI="3.22-mingw.patch"
 
 CYGCONF_ARGS="--disable-static"
